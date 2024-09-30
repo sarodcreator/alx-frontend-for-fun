@@ -1,0 +1,16 @@
+/* Assigns a color to the background */
+$primary-color: #3D3D3D;
+$bg-color: #6D6D6D;
+
+body {
+  color: $primary-color;
+  background-color: $bg-color;
+}
+
+p {
+  color: $primary-color;
+}
+
+h2 {
+  background-color: $bg-color;
+}
