@@ -1,0 +1,14 @@
+/* Nested and nested again */
+$body-small: 12px;
+$body-medium: 14px;
+$body-large: 16px;
+
+body {
+  font-size: $body-medium;
+  h1 {
+    font-size: $body-large;
+    &.smaller {
+      font-size: $body-small;
+    }
+  }
+}
